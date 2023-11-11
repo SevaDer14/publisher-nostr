@@ -14,3 +14,8 @@ type ErrorRequestState = {
 }
 
 export type RequestState = InitRequestState | LoadingRequestState | SuccessRequestState | ErrorRequestState
+
+export type PriceUnit = {
+	unit: string;
+	value: number;
+};

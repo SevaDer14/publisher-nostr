@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { RequestState } from '$lib/types';
+	import type { RequestState } from '$lib';
 	import Button from './Button.svelte';
 
 	export let request: RequestState;
