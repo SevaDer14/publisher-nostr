@@ -1,14 +1,14 @@
 import ListItem from './ListItem.svelte';
 
-describe('ListItem', () => {
-	const props = {
-		type: 'article',
-		author: 'Publisher Team',
-		title: 'Publish stuff and stack sats',
-		tags: ['bitcoin', 'monetization'],
-		price: 3200
-	};
+export const props = {
+	type: 'article',
+	author: 'Publisher Team',
+	title: 'Publish stuff and stack sats',
+	tags: ['bitcoin', 'monetization'],
+	price: 3200
+};
 
+describe('ListItem', () => {
 	it('should mount', () => {
 		cy.mount(ListItem, { props });
 		cy.get("[data-cy='list-item']").should('exist');
