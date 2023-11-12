@@ -1,12 +1,11 @@
 <script lang="ts">
 </script>
 
-<nav
-	data-cy="top-navigation"
-	class="sticky top-0 h-20 w-full items-center bg-white px-4 flex border-b"
->
-	<p class="text-lg font-medium">__publisher</p>
-</nav>
+<header data-cy="top-navigation" class="sticky top-0 h-20 w-full border-b bg-white">
+	<div class="flex h-full max-w-3xl mx-auto items-center px-4">
+		<p class="text-lg font-medium">__publisher</p>
+	</div>
+</header>
 
 <style lang="postcss">
 </style>

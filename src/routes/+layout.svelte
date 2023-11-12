@@ -4,6 +4,6 @@
 </script>
 
 <TopNavigation />
-<div class="p-4 border-zinc-200">
+<div class="p-4 border-zinc-200 max-w-3xl mx-auto">
 	<slot />
 </div>
