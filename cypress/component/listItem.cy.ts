@@ -1,4 +1,4 @@
-import ListItem from './ListItem.svelte';
+import ListItem from '../../src/components/ListItem.svelte';
 
 export const props = {
 	type: 'article',

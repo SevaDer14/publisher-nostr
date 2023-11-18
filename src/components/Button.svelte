@@ -1,5 +1,4 @@
 <script lang="ts">
-	export let dataCy: string | undefined = undefined;
 	export let disabled: boolean = false;
 	export let color: 'zinc' | 'amber' | undefined = undefined;
 
@@ -16,9 +15,10 @@
 </script>
 
 <button
-	data-cy={dataCy}
+	data-cy={$$props['data-cy']}
 	{disabled}
-	class="flex min-w-[74px] justify-center rounded-full border px-4 py-0.5 text-xs disabled:opacity-75 {colorClass} {$$props.class}"
+	on:click
+	class="flex min-w-[74px] justify-center rounded-full border px-4 py-0.5 font-mono text-xs disabled:opacity-75 {colorClass} {$$props.class}"
 >
 	<slot />
 </button>

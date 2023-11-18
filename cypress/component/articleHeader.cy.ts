@@ -1,4 +1,4 @@
-import ArticleHeader from './ArticleHeader.svelte';
+import ArticleHeader from '../../src/components/ArticleHeader.svelte';
 
 describe('ArticleHeader', () => {
 	const props = {

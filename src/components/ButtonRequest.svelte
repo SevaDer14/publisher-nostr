@@ -6,7 +6,7 @@
 	export let label: string | undefined = undefined;
 </script>
 
-<Button dataCy="button-request" disabled={request.state === 'loading'}>
+<Button data-cy="button-request" disabled={request.state === 'loading'}>
 	{#if request.state === 'loading'}
 		<span data-cy="button-request-loading">loading</span>
 	{:else}

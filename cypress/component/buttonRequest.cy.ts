@@ -1,4 +1,4 @@
-import ButtonRequest from './ButtonRequest.svelte';
+import ButtonRequest from '../../src/components/ButtonRequest.svelte';
 
 describe('ButtonRequest', () => {
 	it('should mount', () => {

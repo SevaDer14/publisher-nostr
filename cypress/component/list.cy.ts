@@ -1,4 +1,4 @@
-import List from './List.svelte';
+import List from '../../src/components/List.svelte';
 
 export const props = {
     items: [
